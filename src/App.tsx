@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from './components/Button/button';
-import SimpleCountdown from './components/SimpleCountdown/simple-countdown';
+import SimpleCountdown from './components/Countdown/simple-countdown';
+import CountdownPropsUi from './components/Countdown/countdown-render-props-ui';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <h3>sass h3</h3>
         <Button btnType='danger' size='lg'>danger</Button>
         <SimpleCountdown date={new Date('2022-05-20')} />
+        <CountdownPropsUi date={new Date('2022-05-20')} />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
