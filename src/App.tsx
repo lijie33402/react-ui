@@ -11,8 +11,8 @@ function App() {
         <h2>sass h2</h2>
         <h3>sass h3</h3>
         <Button btnType='danger' size='lg'>danger</Button>
-        <SimpleCountdown date={new Date('2022-05-20')} />
-        <CountdownPropsUi date={new Date('2022-05-20')} />
+        <SimpleCountdown date={new Date('2022-08-20')} />
+        <CountdownPropsUi date={new Date('2022-09-20')} />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
